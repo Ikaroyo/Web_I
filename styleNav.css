@@ -1,0 +1,54 @@
+body {
+    /*
+    background-color: #819ca9;
+    */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background no repeat scroll 0% 0% cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+
+    color: #fff;
+    font-size: 1.5em;
+    /*background-color: #546e7a;*/
+    background-image: linear-gradient(to right top, #051937, #39235a, #791e6a, #b90062, #eb1242);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
+
+    height: 100%;
+    position: 0 0;
+    padding: -10px;
+    margin: -10px;
+
+}
+.flex-container > li {
+    margin-right: 30px;
+    border-right: 1px solid #fff;
+    list-style: none;
+
+    padding-right: 10px;
+
+}
+
+.flex-container > li:hover {
+
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+h1 {
+    color: #fff;
+}
